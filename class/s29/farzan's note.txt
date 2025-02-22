@@ -1,0 +1,30 @@
+gcc s29_main.c --save--temps  --> İÇíá åÇí ãíÇäí Ñæ äå ãíÏÇÑå ãËá .o(object file) .i(intermediate) .s(assembeli) .exe(nahayii)
+copy ..\s27\catch.hpp
+make file --> s29_test.c --> dakhelesh ye code test mizarim
+s29_test.c : **kole tabe matloob(strlen)** cut mikonim 
+s29_test.c : #include "mycode.h"(header file)
+make file mycode.h 
+dakhel mycode.h paste mikonim faghat tarif(khat avalesh)**kole tabe matloob(strlen)** akharesh ham ye ; mizarim
+make file mycode.c 
+dakhel mycode.c paste mikonim **kole tabe matloob(strlen)**
+g++ -c s29_test.c --> misaze s29_test.o(object file) $dar object file faghat be tarif ha negah mikone piade sazi(ejra ya execute) ba oon nist
+**** ma fahgat be file mycode.c dast mizanim va taghiresh midim baghie ash sabet ast pas baghie ash ro faghat ye bar compile mikonim 
+g++ -c mycode.c
+g++      s29_test.o     mycode.o     -o     s29_test.exe  áíä˜Ôæä ãí˜äíã
+                 İÇíá 2               İÇíá1
+.o --> İŞØ ÊÚÑíİ Ñæ ˜ ãí˜äå ÏÑÓÊå íÇ äå       .exe -->   ÊÚÑíİ æ ÇÌÑÇ ˜ ãí˜äå       .hpp -->  header file ++
+( .o + .o ==> .exe)link        (.c ...  ==> exe)bulid       ( .c ==> .o compile)     
+
+baad az ina age test pass nashod:miay mycode.c ro avaz mikoni bad compile esh mikoni(.c --> .o)   miay ba 29_test.o link esh mikoni( .o + .o --> .exe)
+ÈíÔÊÑíä ÒãÇä ÕÑİ ˜ÇãÇíá ÊÓÊ ãíÔå ˜å ãÇ ÈÇ Çíä ˜å İŞØ íÈÇÑ ÊÓÊ Ñæ ˜ÇãÇíá ãí˜äíã æ Çå ÊÓÊ ÇÓ äÔÏ İŞØ 
+max_time( test.c --> test.o )
+mycode.c midim bad ba test.o linkesh mikonim
+
+make file: s29_testdebug.c : dakhelesh #include "mycode.h" yani alan ke motmaen shodim ke test pass shod biaim azash estefade konim
+g++ -c  s29_testdebug.c
+g++   s29_testdebug.o  mycode.o   -o   s29_testdebug.exe
+chad ta module ãÇæá   darim  --> s29_test    mycode    s29_test_debug
+
+
+
+
