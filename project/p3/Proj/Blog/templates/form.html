@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>  FORM </title>
+    </head>
+    <body>
+        <h1> Leraning Requests</h1>
+        <form action="{% url 'form' %}" method="POST">
+            <label for="username">Username ro vared kon</label>
+            <input type="text" name="username" id="username" >
+            <br>
+            <!-- dokme submit -->
+            <label for="password">Pass</label>
+            <input type="password" name="user_pass">
+            <br>
+            <input type= "submit" value="submit form">
+            <br>
+            <label for="int">number ro vared kon</label>
+            <input type="text" name="int">
+            <br>
+            <input type="submit" value="send">
+        </form>
+        <!--  moteghayer  -->
+        
+        ​​​​
+        {% for x in adad %}
+        <ul>
+            
+
+                <li> {{ x }} </li>   <!-- list item -->
+                
+        </ul>
+        {% endfor %}
+
+        ​​​​
+
+
+    </body>
+    <script>
+
+    </script>
+</html>

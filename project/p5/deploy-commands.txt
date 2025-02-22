@@ -1,0 +1,6 @@
+new_env\Scripts\activate
+pip freeze >> requirements.txt
+cd Proj
+python manage.py makemigrations
+python manage.py migrate
+python manage.py check
