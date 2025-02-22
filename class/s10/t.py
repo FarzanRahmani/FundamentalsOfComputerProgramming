@@ -1,0 +1,21 @@
+import turtle as t
+t.speed(1)
+t.goto(100,100)
+t.circle(50)
+t.goto(-100,100)
+t.circle(100)
+t.goto(-100,-100)
+t.circle(150)
+t.goto(100,-100)
+t.circle(50)
+t.home()
+t.forward(100)
+t.right(90) 
+t.forward(100) 
+t.left(150)
+t.forward(300)
+t.left(30)
+t.backward(400)
+
+# manteghi       t  =  turtle.Turtle()
+#        moteghyer <-- besazi

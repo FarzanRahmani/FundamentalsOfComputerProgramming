@@ -1,0 +1,14 @@
+    1  ls
+    2  cd Proj/
+    3  ls
+    4  rm -rf Proj/ manage.py
+    5  ls
+    6  unrar x ../Proj.rar
+    7  ls
+    8  mkvirtualenv --python=/usr/bin/python3.8 new_env
+    9  pip install -r requirements.txt
+   10  ls
+   11  history
+   12  /home/99521271/.virtualenvs/new_env/
+   13  history
+   14  --> web --> virtualenv --> /home/99521271/.virtualenvs/new_env/

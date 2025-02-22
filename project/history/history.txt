@@ -1,0 +1,14 @@
+cd Proj
+new_env\Scripts\activate
+env\Scripts\activate
+new_env\Scripts\activate
+ new_env\Scripts\activate
+cd ..
+mkdir history
+cd history
+history.txt
+mk history.txt
+copy con history.txt
+con copy history.txt
+doskey /history >> history.txt
+python manage.py createsuperuser

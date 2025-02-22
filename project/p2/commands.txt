@@ -1,0 +1,11 @@
+1.python -m venv env   (venv=virtual environment)
+2.env\Scripts\activate  (har vaght khastim kar konim bayad ino bezanim)
+3.pip install django
+4.django-admin startproject tutorial .
+5.cd tutorial
+6.django-admin startapp quickstart
+7.cd ..
+()pip freeze(chiz haye mojood)
+python manage.py runserver
+localhost:8000  (baraye browser)
+new_env\Scripts\activate

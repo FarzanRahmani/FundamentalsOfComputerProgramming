@@ -1,0 +1,69 @@
+doske/history
+ doskey /history
+g:
+cd git
+cd FC99001
+cd class
+cd s15
+dir
+for /f %i in (teams_ids.txt) do echo %i
+for /f %i in (teams_ids.txt) do @echo %i
+type team_ids.txt
+doskey /history
+ns lookup
+dir
+for /f %i in (team_ids.txt) do echo %i
+for /f %i in (team_ids.txt) do @echo %i
+type team_ids.txt
+for /f %j in (team_ids.txt) do @echo %i
+for /f %i in (team_ids.txt) do @echo %j
+type team_ids.txt
+for /f "delims=' '" %i in (team_ids.txt) do @echo %j
+code team_ids.txt
+tasklist | findstr Teams
+type team_ids.txt
+for /f %i in (team_ids.txt) do @echo %i
+echo ali
+for /f %i in (team_ids.txt) do @echo netstat -na -o | findstr %i
+for /f %i in (team_ids.txt) do @ ( echo netstat -na -o | findstr %i )
+for /f %i in (team_ids.txt) do @echo %i
+tasklist | findstr Teams
+notepad team_ids.txt
+for /f %i in (team_ids.txt) do echo %i
+for /f %i in (team_ids.txt) do @echo %i
+for /f %i in (team_ids.txt) do @echo netstat -na -o %i
+for /f %i in (team_ids.txt) do @echo netstat -na -o | findstr %i
+for /f %i in (team_ids.txt) do @(echo netstat -na -o | findstr %i)
+for /f %i in (team_ids.txt) do @netstat -na -o | findstr %i
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i
+for /f %i in (team_ids.txt) do @netstat -na -o | findstr %i > teams.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i > teams.txt
+type teams.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i >> teams.txt
+type teams.txt
+dir
+dir > a.txt
+type a.txt
+echo ali
+echo ali > a.txt
+type a.txt
+dir > a.txt
+type a.txt
+echo ali >> a.txt
+type a.txt
+echo ali >> a.txt
+type a.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i >> teams.txt
+type teams.txt
+del teams.txt
+for /f %i in (team_ids.txt) do netstat -na -o | findstr %i >> teams.txt
+type teams.txt
+doskey /history
+doskey /history > commands.txt
+doskey /history > for_commands.txt
+
+nslookup
+doskey /history
+copy doskey / history farzan.txt
+copy doskey /history farzan.txt
+ doskey /history >>  farzan.txt

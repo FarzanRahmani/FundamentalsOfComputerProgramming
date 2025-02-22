@@ -1,0 +1,25 @@
+gcc s29_main.c
+gcc s29_main.c --save-temps
+dir
+dir /od
+copy ..\s27\catch.hpp
+dir ..\s27
+dir ..\s27\s27_main.c
+notepad ..\s27\s27_main.c
+dir
+del s29_main.i
+del s29_main.o
+del s29_main.s
+dir
+gcc -c s29_test.c
+g++ -c s29_test.c
+dir /od
+g++ -c mycode.c
+g++ s29_test.o mycode.o -o s29_test.exe
+s29_test.exe
+g++ -c s29_testdebug.c
+g++ s29_testdebug.o -o s29_testdebug.exe
+g++ s29_testdebug.o mycode.o -o s29_testdebug.exe
+cls
+s29_main.exe
+doskey /history > commands.txt
